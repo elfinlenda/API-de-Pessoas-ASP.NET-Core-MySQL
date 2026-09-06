@@ -1,0 +1,21 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# User Secrets (não fica na pasta do projeto, mas por precaução)
+secrets.json

@@ -49,10 +49,10 @@ Program.cs
 
 | Método | Rota                | Descrição                    |
 |--------|---------------------|-------------------------------|
-| POST   | `/Pessoa`            | Cadastra pessoa                |
-| GET    | `/Pessoa`            | Lista todas                    |
-| PUT    | `/Pessoa/{codigo}`   | Atualiza pessoa                |
-| DELETE | `/Pessoa/{codigo}`   | Remove pessoa                  |
+| POST   | `/Pessoa`            | Cadastra                 |
+| GET    | `/Pessoa`            | Lista                     |
+| PUT    | `/Pessoa/{codigo}`   | Atualiza                 |
+| DELETE | `/Pessoa/{codigo}`   | Remove                   |
 
 Validações: nome e cidade obrigatórios, idade entre 0 e 120. Alteração e remoção verificam se o código existe antes de executar.
 
